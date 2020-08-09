@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore", "netcore.csproj", "{7E9FFFFD-373A-48C4-928A-0BFF54AAC37B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webAPIHub", "..\webAPIHub\webAPIHub.csproj", "{36318D3C-7584-4FD1-8B82-448EF78C041C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{8F4E4228-8FA8-405A-A7DD-B987231DBE33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormsApp", "FormsApp", "{05B76BF0-B5A6-4230-BE1C-BB033ADCFFBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApp", "MobileApp", "{54186925-3656-42E1-9A0D-26B35E23E7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Android", "..\MobileApp\Chat\Chat.Android\Chat.Android.csproj", "{674060BF-470D-48BC-93EA-3EEB1A51C768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "..\MobileApp\Chat\Chat\Chat.csproj", "{C26714D5-BFE7-4F97-9239-8AAC21F4887E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E9FFFFD-373A-48C4-928A-0BFF54AAC37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9FFFFD-373A-48C4-928A-0BFF54AAC37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9FFFFD-373A-48C4-928A-0BFF54AAC37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36318D3C-7584-4FD1-8B82-448EF78C041C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36318D3C-7584-4FD1-8B82-448EF78C041C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36318D3C-7584-4FD1-8B82-448EF78C041C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674060BF-470D-48BC-93EA-3EEB1A51C768}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C26714D5-BFE7-4F97-9239-8AAC21F4887E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26714D5-BFE7-4F97-9239-8AAC21F4887E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26714D5-BFE7-4F97-9239-8AAC21F4887E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26714D5-BFE7-4F97-9239-8AAC21F4887E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E9FFFFD-373A-48C4-928A-0BFF54AAC37B} = {05B76BF0-B5A6-4230-BE1C-BB033ADCFFBA}
+		{36318D3C-7584-4FD1-8B82-448EF78C041C} = {8F4E4228-8FA8-405A-A7DD-B987231DBE33}
+		{674060BF-470D-48BC-93EA-3EEB1A51C768} = {54186925-3656-42E1-9A0D-26B35E23E7D1}
+		{C26714D5-BFE7-4F97-9239-8AAC21F4887E} = {54186925-3656-42E1-9A0D-26B35E23E7D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E5E17AD-5619-4EC5-864A-245E399C27DF}
+	EndGlobalSection
+EndGlobal
